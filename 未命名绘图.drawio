@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T07:15:13.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TnhdlK49tEwpB2e5W2sn" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T07:35:01.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wfgNPH9OxNUIwENeaMtf" version="20.8.10" type="github">
   <diagram name="第 1 页" id="PVlNJdByaJTdlDvCdC5w">
-    <mxGraphModel dx="4150" dy="4742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="5350" dy="4742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,6 +105,178 @@
             <mxPoint x="-176" y="-2410" as="sourcePoint" />
             <mxPoint x="-175.83" y="-2180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-33" value="进程管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-2020" y="-2135" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-34" value="进程调度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1810" y="-2135" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-35" value="内存管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-2020" y="-2060" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-36" value="外设管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1810" y="-2060" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-37" value="内核数据结构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1590" y="-2135" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-38" value="定时器与时钟" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1590" y="-2060" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-39" value="中断处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="-2135" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-40" value="块IO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="-2060" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-41" value="文件管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="-2135" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-42" value="进程地址空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1149" y="-2060" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-43" value="内核同步结构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="-2135" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-44" value="设备与模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00994D;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="-2060" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-45" value="CPU (x86)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-2020" y="-1950" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-46" value="内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="-1950" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-47" value="硬盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-2020" y="-1860" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-48" value="外设" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="-1860" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-49" value="Intel开发手册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-2020" y="-1750" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-50" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=22;fontColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="zexWRxnk-prtrb20SGb2-49" target="zexWRxnk-prtrb20SGb2-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2110" y="-1820" as="sourcePoint" />
+            <mxPoint x="-2060" y="-1870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2060" y="-1820" />
+              <mxPoint x="-2110" y="-1870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-51" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=22;fontColor=#FF3333;fillColor=#00994D;" vertex="1" parent="1">
+          <mxGeometry x="-1585" y="-1930" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-52" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;计算机组成原理&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="-1905" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-53" value="ReactiveMQ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="-1940" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-54" value="Spring/ SpringBoot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="-1850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-55" value="WebFlux" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="-1940" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-56" value="SpringCloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="-1850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-57" value="Tomcat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="-1940" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-58" value="Netty" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="-1850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-59" value="Arthes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-1940" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-60" value="RxJava" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#004C99;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-1850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-61" value="Java" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="-1750" width="830" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-62" value="HtotSpot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-1940" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-63" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-1940" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-64" value="STL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-1850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-65" value="Beest" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-1850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-66" value="C++" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-1750" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-67" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=22;fontColor=#FF3333;fillColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-2165" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-68" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;操作系统&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-2135" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-69" value="数据结构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-2620" width="90" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-70" value="算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-2620" width="90" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-71" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;结论 = 源码（贯穿始终）+ 结果 + 权威书籍或官方文档 + 推理&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="-1650" y="-2880" width="1030" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-72" value="混沌学习法" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="-1650" y="-2770" width="1030" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-73" value="混沌读书法" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="-2449" y="-2670" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-74" value="CSAPP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2449" y="-2580" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=32;fontColor=#FF3333;" edge="1" parent="1" source="zexWRxnk-prtrb20SGb2-74" target="zexWRxnk-prtrb20SGb2-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-76" value="深入理解内核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2449" y="-2510" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-77" value="Java 编程思想" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2449" y="-2420" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-78" value="计算机网络" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2449" y="-2320" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-80" value="高性能Myql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2440" y="-2230" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-81" value="数据结构/算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2440" y="-2140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-82" value="计算机组成原理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2440" y="-2050" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-83" value="汇编" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2440" y="-1970" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-84" value="C Primer Plux" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="-1890" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-85" value="C++ Primer Plux" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="-1810" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-86" value="GCC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="-1740" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-87" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;百余本&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-2420" y="-1670" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zexWRxnk-prtrb20SGb2-88" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;学会自主思考&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="-1560" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
